@@ -28,6 +28,7 @@ body {
   padding: 0;
   font-family: 'latoregular';
   overflow-x: hidden;
+  background-color: #333;
 }
 
 h1 {
@@ -39,10 +40,30 @@ h1 {
   color: #fff;
 }
 
-p {
+p, .text {
   color: #fff;
   font-size: 24px;
   margin-bottom: 0;
+
+  &-small {
+    font-size: 14px;
+  }
+
+  &-left {
+    text-align: left;
+  }
+
+  &-right {
+    text-align: right;
+  }
+
+  &-center {
+    text-align: center;
+  }
+
+  &-black {
+    color: #252525;
+  }
 }
 
 .btn {
@@ -62,16 +83,18 @@ p {
 
     &:hover {
       background-color: #ff7606;
+      box-shadow: 0 2px 20px 0 rgba(248, 160, 88, 0.5);
       color: #fff;
     }
   }
 
   &-blue {
-    box-shadow: 0 2px 20px 0 rgba(96, 150, 174, 0.5);
+    box-shadow: 0 2px 10px 0 rgba(96, 150, 174, 0.5);
     background-color: #6096ae;
 
     &:hover {
-      bsckground-color: #6096ae;
+      background-color: #51b1db;
+      box-shadow: 0 2px 20px 0 rgba(96, 150, 174, 0.5);
       color: #fff;
     }
   }
@@ -79,12 +102,12 @@ p {
 
 /* Section style */
 .header {
-  height: 960px;
   background-image: url('../../images/header.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding-top: 200px;
+  padding-bottom: 91px;
   box-sizing: border-box;
   position: relative;
 
@@ -101,6 +124,35 @@ p {
     &_label {
       font-size: 24px;
       color: #fff;
+    }
+
+    &-window {
+      box-shadow: 0 10px 20px 0 rgba(191, 212, 222, 0.43);
+      width: 783px;
+      padding: 40px;
+      margin: 90px auto 0px;
+      background-color: #fff;
+
+      &_label {
+        color: #6096ae;
+        font-family: 'latoblack';
+        font-size: 54px;
+        margin-bottom: 18px;
+      }
+    }
+  }
+}
+
+.navigation {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 100%;
+
+  .tel {
+    &:hover {
+      color: #fff;
+      text-decoration: none;
     }
   }
 }
