@@ -237,3 +237,53 @@ p-orange,
   color: #6096ae;
   margin-bottom: 10px;
 }
+.section4 .round {
+  width: 305px;
+  height: 305px;
+  margin: 0 auto 64px;
+  position: relative;
+}
+.section4 .round circle {
+  fill: transparent;
+  stroke: rgba(255, 255, 255, 0.5);
+  stroke-width: 4;
+  stroke-dasharray: 408px 408px;
+}
+.section4 .round circle:nth-child(2n) {
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 6;
+}
+.section4 .round-orange circle:nth-child(2n) {
+  stroke: #f8a058;
+}
+.section4 .round-blue circle:nth-child(2n) {
+  stroke: #51b1db;
+}
+.section4 .round-box {
+  position: relative;
+}
+.section4 .round-box_val {
+  position: absolute;
+  font-family: 'latoblack';
+  opacity: 0.1;
+  font-size: 72px;
+  width: 100%;
+  text-align: center;
+  line-height: 305px;
+  z-index: 5;
+  top: 0;
+  left: 10px;
+  color: #fff;
+}
+.section4 .round-box_label {
+  font-size: 18px;
+  line-height: 305px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  z-index: 7;
+  top: 0;
+  left: 10px;
+  color: #fff;
+}
