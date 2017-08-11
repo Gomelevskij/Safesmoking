@@ -47,6 +47,13 @@ h2, .h2 {
   color: #fff;
 }
 
+h3, .h3 {
+  font-family: 'latoblack';
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
 p, .text {
   color: #fff;
   font-size: 24px;
@@ -70,6 +77,10 @@ p, .text {
 
   &-black {
     color: #252525;
+  }
+
+  &-orange {
+    color: #f8a058;
   }
 }
 
@@ -200,4 +211,75 @@ p, .text {
     }
   }
 }
+
+.section3 {
+  &-list {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+
+    .owl-item {
+      float: left;
+      overflow: hidden;
+      padding: 30px 20px;
+    }
+
+    .owl-dots {
+      position: absolute;
+      top: 91px;
+      left: 91px;
+      overflow: hidden;
+
+      .owl-dot {
+        width: 48px;
+        height: 48px;
+        border: 1px solid #fff;
+        float: left;
+        text-align: center;
+        cursor: pointer;
+
+        &:before {
+          color: #fff;
+          opacity: 0.5;
+          font-size: 56px;
+          line-height: 41px;
+        }
+
+        &:nth-child(1):before {
+          content: '\003C';
+        }
+
+        &:nth-child(2):before {
+          content: '\003E';
+        }
+      }
+    }
+
+    &_item {
+      width: 622px;
+      box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.43);
+      background-color: #333;
+      position: relative;
+      padding: 138px 72px 50px;
+      overflow: hidden;
+      box-sizing: border-box;
+
+      .text {
+        margin-bottom: 30px;
+      }
+
+      .btn {
+        margin-top: 0;
+      }
+
+      &-label {
+        font-family: 'latobold';
+        color: #6096ae;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
 

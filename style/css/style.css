@@ -40,6 +40,13 @@ h2,
   margin-bottom: 111px;
   color: #fff;
 }
+h3,
+.h3 {
+  font-family: 'latoblack';
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #fff;
+}
 p,
 .text {
   color: #fff;
@@ -65,6 +72,10 @@ p-center,
 p-black,
 .text-black {
   color: #252525;
+}
+p-orange,
+.text-orange {
+  color: #f8a058;
 }
 .btn {
   font-size: 14px;
@@ -168,4 +179,61 @@ p-black,
 }
 .section2-list li:last-child {
   padding-bottom: 0;
+}
+.section3-list {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.section3-list .owl-item {
+  float: left;
+  overflow: hidden;
+  padding: 30px 20px;
+}
+.section3-list .owl-dots {
+  position: absolute;
+  top: 91px;
+  left: 91px;
+  overflow: hidden;
+}
+.section3-list .owl-dots .owl-dot {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #fff;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+}
+.section3-list .owl-dots .owl-dot:before {
+  color: #fff;
+  opacity: 0.5;
+  font-size: 56px;
+  line-height: 41px;
+}
+.section3-list .owl-dots .owl-dot:nth-child(1):before {
+  content: '\003C';
+}
+.section3-list .owl-dots .owl-dot:nth-child(2):before {
+  content: '\003E';
+}
+.section3-list_item {
+  width: 622px;
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.43);
+  background-color: #333;
+  position: relative;
+  padding: 138px 72px 50px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.section3-list_item .text {
+  margin-bottom: 30px;
+}
+.section3-list_item .btn {
+  margin-top: 0;
+}
+.section3-list_item-label {
+  font-family: 'latobold';
+  color: #6096ae;
+  margin-bottom: 10px;
 }
