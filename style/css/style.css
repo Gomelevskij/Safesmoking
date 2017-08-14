@@ -180,6 +180,49 @@ p-orange,
 .section2-list li:last-child {
   padding-bottom: 0;
 }
+.section3 {
+  position: relative;
+}
+.section3 .map-block {
+  background-image: url('../../img/map.svg');
+  background-position: top right;
+  backgroind-repeat: no-repeat;
+  background-size: contain;
+  width: 796px;
+  height: 607px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.section3 .map-block .map-icon {
+  background-color: #6096ae;
+  box-shadow: 0 0 20px 0 #6096ae;
+  height: 32px;
+  width: 32px;
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  z-index: 17;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.section3 .map-block .map-icon.active {
+  background-color: #f8a058;
+  box-shadow: 0 0 20px 0 #f8a058;
+  z-index: 19;
+}
+.section3 .map-block .map-icon.map0 {
+  top: 279px;
+  left: 97px;
+}
+.section3 .map-block .map-icon.map1 {
+  top: 279px;
+  left: 194px;
+}
+.section3 .map-block .map-icon.map2 {
+  top: 246px;
+  left: 194px;
+}
 .section3-list {
   margin: 0;
   padding: 0;
@@ -191,30 +234,45 @@ p-orange,
   overflow: hidden;
   padding: 30px 20px;
 }
-.section3-list .owl-dots {
+.section3-list .owl-nav {
   position: absolute;
   top: 91px;
   left: 91px;
   overflow: hidden;
 }
-.section3-list .owl-dots .owl-dot {
+.section3-list .owl-nav .owl-prev,
+.section3-list .owl-nav .owl-next {
   width: 48px;
   height: 48px;
   border: 1px solid #fff;
   float: left;
   text-align: center;
   cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
-.section3-list .owl-dots .owl-dot:before {
-  color: #fff;
+.section3-list .owl-nav .owl-prev.disabled,
+.section3-list .owl-nav .owl-next.disabled {
   opacity: 0.5;
+}
+.section3-list .owl-nav .owl-prev.disabled:before,
+.section3-list .owl-nav .owl-next.disabled:before {
+  opacity: 0.5;
+}
+.section3-list .owl-nav .owl-prev:before,
+.section3-list .owl-nav .owl-next:before {
+  content: '';
+  color: #fff;
+  opacity: 1;
   font-size: 56px;
   line-height: 41px;
+  display: inline-block;
+  outline: none !important;
 }
-.section3-list .owl-dots .owl-dot:nth-child(1):before {
+.section3-list .owl-nav .owl-prev:before {
   content: '\003C';
 }
-.section3-list .owl-dots .owl-dot:nth-child(2):before {
+.section3-list .owl-nav .owl-next:before {
   content: '\003E';
 }
 .section3-list_item {

@@ -213,6 +213,54 @@ p, .text {
 }
 
 .section3 {
+  position: relative;
+
+  .map-block {
+    background-image: url('../../img/map.svg');
+    background-position: top right;
+    backgroind-repeat: no-repeat;
+    background-size: contain;
+    width: 796px;
+    height: 607px;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    .map-icon {
+      background-color: #6096ae;
+      box-shadow: 0 0 20px 0 #6096ae;
+      height: 32px;
+      width: 32px;
+      display: block;
+      position: absolute;
+      border-radius: 100%;
+      z-index: 17;
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+
+      &.active {
+        background-color: #f8a058;
+        box-shadow: 0 0 20px 0 #f8a058;
+        z-index: 19;
+      }
+
+      &.map0 {
+        top: 279px;
+        left: 97px;
+      }
+
+      &.map1 {
+        top: 279px;
+        left: 194px;
+      }
+
+      &.map2 {
+        top: 246px;
+        left: 194px;
+      }
+    }
+  }
+
   &-list {
     margin: 0;
     padding: 0;
@@ -225,34 +273,47 @@ p, .text {
       padding: 30px 20px;
     }
 
-    .owl-dots {
+    .owl-nav {
       position: absolute;
       top: 91px;
       left: 91px;
       overflow: hidden;
 
-      .owl-dot {
+      .owl-prev, .owl-next {
         width: 48px;
         height: 48px;
         border: 1px solid #fff;
         float: left;
         text-align: center;
         cursor: pointer;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+
+        &.disabled {
+          opacity: 0.5;
+
+          &:before {
+            opacity: 0.5;
+          }
+        }
 
         &:before {
+          content: '';
           color: #fff;
-          opacity: 0.5;
+          opacity: 1;
           font-size: 56px;
           line-height: 41px;
+          display: inline-block;
+          outline: none !important;
         }
+      }
 
-        &:nth-child(1):before {
-          content: '\003C';
-        }
+      .owl-prev:before {
+        content: '\003C';
+      }
 
-        &:nth-child(2):before {
-          content: '\003E';
-        }
+      .owl-next:before {
+        content: '\003E';
       }
     }
 

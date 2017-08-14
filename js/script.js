@@ -1,8 +1,20 @@
 $(document).ready(function() {
 
   // Carousel to screen 3
-  $(".section3-list").owlCarousel({
-    items: 1
+  var owlMap = $(".section3-list");
+  owlMap.owlCarousel({
+    items: 1,
+    animateIn: 'fadeIn',
+    animateOut: 'fadeOut',
+    mouseDrag: false,
+    singleItem: true,
+    nav: true
+  });
+
+  owlMap.on('changed.owl.carousel', function(event) {
+    var indexMap = '.map' + event.item.index;
+    $(".map-icon").removeClass("active");
+    $(indexMap).addClass("active");
   });
 
   // Circle to screen 3 in class 'round'
