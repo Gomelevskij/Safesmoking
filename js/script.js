@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+  $("input[type='tel']").mask("+7 (999) 999-99-99");
+
   // $('.wheip-item1').parallax({
   //   xparallax: false
   //   yparallax: true
@@ -9,6 +11,16 @@ $(document).ready(function() {
   //   xparallax: false
   //   yparallax: true
   // });
+
+  // Input as material design
+  $('.modal-content-box-input').blur(function(){
+    if($(this).val().length !== 0) {
+      $(this).addClass('filled');
+    }
+    else {
+      $(this).removeClass('filled');
+    }
+  });
 
   // Navigation fixed
   var nav = $('.navigation');
