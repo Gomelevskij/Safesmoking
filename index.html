@@ -9,6 +9,7 @@
 
     <link href="lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="lib/owl.carousel/owl.carousel.css" rel="stylesheet">
+    <link href="lib/animate/animate.css" rel="stylesheet">
     <link href="style/css/style.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
@@ -26,7 +27,7 @@
                 <p class="text">
                     Открыть бизнес с лидером рынка – выгодно и безопасно
                 </p>
-                <a class="btn btn-orange" href="#">Хочу свой vape-shop</a>
+                <button class="btn btn-orange modal-on">Хочу свой vape-shop</button>
             </div>
              <div class="row header-block">
                  <div class="col-md-4">
@@ -47,7 +48,7 @@
                 <div class="header-block-window text-center">
                     <div class="header-block-window_label">17 из 20</div>
                     <p class="text text-black">магазинов по льготной цене осталось</p>
-                    <a class="btn btn-blue" href="#">Хочу свой vape-shop</a>
+                    <button class="btn btn-blue modal-on">Хочу свой vape-shop</button>
                 </div>
             </div>
         </div>
@@ -74,7 +75,60 @@
         </div>
     </section>
 
-    <section class="section section2">
+    <div class="nav-scroll" id="navigation">
+        <ul>
+            <li>
+                <a href="#section2" data-number="1">
+                    <span class="dot"></span>
+                    <span class="label">Минимальный порог</span>
+                </a>
+            </li>
+            <li>
+                <a href="#section4" data-number="2">
+                    <span class="dot"></span>
+                    <span class="label">Из чего складывается доход?</span>
+                </a>
+            </li>
+            <li>
+                <a href="#section5" data-number="3">
+                    <span class="dot"></span>
+                    <span class="label">Собственное производство</span>
+                </a>
+            </li>
+            <li>
+                <a href="#section6" data-number="4">
+                    <span class="dot"></span>
+                    <span class="label">График</span>
+                </a>
+            </li>
+            <li>
+                <a href="#section7" data-number="5">
+                    <span class="dot"></span>
+                    <span class="label">Наши гарантии</span>
+                </a>
+            </li>
+            <li>
+                <a href="#section9" data-number="6">
+                    <span class="dot"></span>
+                    <span class="label">Наши проекты</span>
+                </a>
+            </li>
+            <li>
+                <a href="#section10" data-number="7">
+                    <span class="dot"></span>
+                    <span class="label">Преимущества</span>
+                </a>
+            </li>
+            <li>
+                <a href="#section12" data-number="8">
+                    <span class="dot"></span>
+                    <span class="label">Открой свой вейпшоп</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <section id="section2" class="section section2">
         <div class="container">
             <div class="row">
                 <h2 class="h2">Минимальный порог входа в бизнес</h2>
@@ -85,7 +139,7 @@
                         стратегия и известность торговой марки компании позволяет быстро
                         находить аудиторию и нарабатывать базу постоянных клиентов.
                     </p>
-                    <a href="#" class="btn btn-orange">Посмотреть кейсы</a>
+                    <a href="#" class="btn btn-orange modal-on">Посмотреть кейсы</a>
                 </div>
                 <div class="col-md-offset-1 col-md-6">
                     <ul class="section2-list">
@@ -98,11 +152,11 @@
         </div>
     </section>
 
-    <section class="section section3">
+    <section id="section3" class="section section3">
         <div class="map-block">
-            <span map-attr="0" class="map-icon map0 active"></span>
-            <span map-attr="1" class="map-icon map1"></span>
-            <span map-attr="2" class="map-icon map2"></span>
+            <span map-attr="0" class="map-icon map0 active">1</span>
+            <span map-attr="1" class="map-icon map1">8</span>
+            <span map-attr="2" class="map-icon map2">7</span>
         </div>
         <div class="container">
             <div class="row">
@@ -116,7 +170,7 @@
                                 Магазин открылся в 2016 году и вышел на окупаемость
                                 за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
                             </p>
-                            <a href="#" class="btn btn-blue">Хочу свой vape-shop</a>
+                            <button class="btn btn-blue modal-on">Хочу свой vape-shop</button>
                         </li>
                         <li class="section3-list_item">
                             <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
@@ -126,7 +180,7 @@
                                 Магазин открылся в 2016 году и вышел на окупаемость
                                 за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
                             </p>
-                            <a href="#" class="btn btn-blue">Хочу свой vape-shop</a>
+                            <button class="btn btn-blue modal-on">Хочу свой vape-shop</button>
                         </li>
                         <li class="section3-list_item">
                             <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
@@ -136,7 +190,7 @@
                                 Магазин открылся в 2016 году и вышел на окупаемость
                                 за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
                             </p>
-                            <a href="#" class="btn btn-blue">Хочу свой vape-shop</a>
+                            <button class="btn btn-blue modal-on">Хочу свой vape-shop</button>
                         </li>
                     </ul>
                 </div>
@@ -144,7 +198,7 @@
         </div>
     </section>
 
-    <section class="section section4">
+    <section id="section4" class="section section4">
         <div class="container">
             <h2 class="h2">Из чего складывается доход?</h2>
             <div class="row">
@@ -178,6 +232,7 @@
             </div>
             <div class="row">
                 <div class="col-md-5">
+                    <h2 class="h2 mb-0">Как посчитать оборот моего магазина?</h2>
                     <p class="text">
                         Основной заработок на жидкостях.
                         Для примера:
@@ -200,7 +255,7 @@
                         <div class="section4-contain-box">
                             <div class="section4-contain-box_label">630 000 Р</div>
                             <div class="section4-contain-box_val">среднемесячный оборот</div>
-                            <a href="#" class="btn btn-orange">Хочу свой vape-shop</a>
+                            <button class="btn btn-orange modal-on">Хочу свой vape-shop</button>
                         </div>
                     </div>
                 </div>
@@ -208,19 +263,19 @@
         </div>
     </section>
 
-    <section class="section section5">
+    <section id="section5" class="section section5">
         <div class="container">
             <div class="section5-block">
                 <h3 class="h3">Собственное
                     производство</h3>
                 <p class="text-small">Линейки жидкостей призеры
                     на профессиональных выставках</p>
-                <a href="#" class="btn btn-blue">Хочу свой vape-shop</a>
+                <button class="btn btn-blue modal-on">Хочу свой vape-shop</button>
             </div>
         </div>
     </section>
 
-    <section class="section section6">
+    <section id="section6" class="section section6">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -236,28 +291,28 @@
                 <div class="col-md-12">
                     <div class="grafic-space">
                         <div class="grafic-space_item">
-                            <div class="grafic-line grafic0 active">
+                            <div grafic-attr="0" class="grafic-line grafic0 active">
                                 <span class="line-1"></span>
                             </div>
-                            <div class="grafic-line grafic1">
-                                <span class="line-1"></span>
-                                <span class="line-2"></span>
-                            </div>
-                            <div class="grafic-line grafic2">
+                            <div grafic-attr="1" class="grafic-line grafic1">
                                 <span class="line-1"></span>
                                 <span class="line-2"></span>
                             </div>
-                            <div class="grafic-line grafic3">
+                            <div grafic-attr="2" class="grafic-line grafic2">
                                 <span class="line-1"></span>
                                 <span class="line-2"></span>
                             </div>
-                            <div class="grafic-line grafic4">
+                            <div grafic-attr="3" class="grafic-line grafic3">
+                                <span class="line-1"></span>
+                                <span class="line-2"></span>
+                            </div>
+                            <div grafic-attr="4" class="grafic-line grafic4">
                                 <span class="line-1"></span>
                             </div>
-                            <div class="grafic-line grafic5">
+                            <div grafic-attr="5" class="grafic-line grafic5">
                                 <span class="line-1"></span>
                             </div>
-                            <div class="grafic-line grafic6">
+                            <div grafic-attr="6" class="grafic-line grafic6">
                                 <span class="line-1"></span>
                             </div>
                         </div>
@@ -272,7 +327,7 @@
                                     <h3 class="text-white">в 2,2 раза</h3>
                                     <p class="text">реальность привысила прогнозы!</p>
                                 </div>
-                                <a class="btn btn-orange" href="#">Хочу свой vape-shop</a>
+                                <button class="btn btn-orange modal-on">Хочу свой vape-shop</button>
                             </li>
                             <li class="grafic-digital_item">
                                 <div class="grafic-digital_item-date">2015</div>
@@ -288,7 +343,7 @@
                                     <h3 class="text-white">в 2,2 раза</h3>
                                     <p class="text">реальность привысила прогнозы!</p>
                                 </div>
-                                <a class="btn btn-orange" href="#">Хочу свой vape-shop</a>
+                                <button class="btn btn-orange modal-on">Хочу свой vape-shop</button>
                             </li>
                             <li class="grafic-digital_item">
                                 <div class="grafic-digital_item-date">2016</div>
@@ -304,7 +359,7 @@
                                     <h3 class="text-white">в 2,2 раза</h3>
                                     <p class="text">реальность привысила прогнозы!</p>
                                 </div>
-                                <a class="btn btn-orange" href="#">Хочу свой vape-shop</a>
+                                <button class="btn btn-orange modal-on">Хочу свой vape-shop</button>
                             </li>
                             <li class="grafic-digital_item">
                                 <div class="grafic-digital_item-date">2017</div>
@@ -320,7 +375,7 @@
                                     <h3 class="text-white">в 2,2 раза</h3>
                                     <p class="text">реальность привысила прогнозы!</p>
                                 </div>
-                                <a class="btn btn-orange" href="#">Хочу свой vape-shop</a>
+                                <button class="btn btn-orange modal-on">Хочу свой vape-shop</button>
                             </li>
                             <li class="grafic-digital_item">
                                 <div class="grafic-digital_item-date">2018</div>
@@ -332,7 +387,7 @@
                                     <h3 class="text-white">в 2,2 раза</h3>
                                     <p class="text">реальность привысила прогнозы!</p>
                                 </div>
-                                <a class="btn btn-orange" href="#">Хочу свой vape-shop</a>
+                                <button class="btn btn-orange modal-on">Хочу свой vape-shop</button>
                             </li>
                             <li class="grafic-digital_item">
                                 <div class="grafic-digital_item-date">2019</div>
@@ -344,10 +399,10 @@
                                     <h3 class="text-white">в 2,2 раза</h3>
                                     <p class="text">реальность привысила прогнозы!</p>
                                 </div>
-                                <a class="btn btn-orange" href="#">Хочу свой vape-shop</a>
+                                <button class="btn btn-orange modal-on">Хочу свой vape-shop</button>
                             </li>
                             <li class="grafic-digital_item">
-                                <div class="grafic-digital_item-date">2019</div>
+                                <div class="grafic-digital_item-date">2020</div>
                                 <div class="grafic-digital_item-box">
                                     <h3 class="text-blue">$134 млн</h3>
                                     <p class="text">прогнозируемый объем рынка России</p>
@@ -356,7 +411,7 @@
                                     <h3 class="text-white">в 2,2 раза</h3>
                                     <p class="text">реальность привысила прогнозы!</p>
                                 </div>
-                                <a class="btn btn-orange" href="#">Хочу свой vape-shop</a>
+                                <button class="btn btn-orange modal-on">Хочу свой vape-shop</button>
                             </li>
                         </ul>
                     </div>
@@ -365,7 +420,7 @@
         </div>
     </section>
 
-    <section class="section section7">
+    <section id="section7" class="section section7">
         <div class="container">
             <p class="text section7-text">
                 <span>Мы гарантируем,</span>
@@ -374,9 +429,269 @@
         </div>
     </section>
 
+    <section id="section8" class="section section8">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="wheip">
+                        <div class="wheip-item1"></div>
+                        <div class="wheip-item2"></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="h3">Как электронные сигареты вляют на здоровье?</h3>
+                    <p class="text index-low">Полная безвредность невозможна, однако:</p>
+                    <ol class="ol index-low">
+                        <li>
+                            <span>
+                                По первым исследованиям потребление электронных сигареи и парение на 95%;
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                Большинство потребителей, которые
+                                перешли на электронные сигареты
+                                взамен обычным отмечают улучшения
+                                состояния здоровья, отсутсвие кашля,
+                                белизна зубов.
+                            </span>
+                        </li>
+                    </ol>
+                    <h3 class="h3 index-high">Электронные сигареты могут запретить?</h3>
+                    <p class="text index-high">Этот тезис раздут СМИ, по факту можно принять и будет принято:</p>
+                    <ol class="ol index-high">
+                        <li>
+                            <span>
+                                Акциз. Налоговый сбор как и на обычные
+                                сигареты. 10 рублей на 1 млн никотиновой
+                                жидскости. Однако производители
+                                планируют продавать отдельно никотин и
+                                отдельно жидкость (например 2 мл никотина
+                                и 30 млн жидвоксти);
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                Ограничение продажи лицам младше 18 лет.
+                                Мы уже это реализовали с начла работы сети.
+                                Ели продавец продал лицу, недостигшему 18
+                                лет его увольняют.
+                            </span>
+                        </li>
+                    </ol>
+                    <button class="btn btn-orange modal-on index-high">Хочу свой vape-shop</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section9" class="section section9">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="section-box">
+                        <h3 class="h3">Островок в ТЦ</h3>
+                        <div class="section-box-contain">
+                            <div class="section-box-contain_val text-orange">250 000 Р</div>
+                            <div class="section-box-contain_label text">Паушальный взнос</div>
+                        </div>
+                        <div class="section-box-contain">
+                            <div class="section-box-contain_val text-blue">800 000 Р</div>
+                            <div class="section-box-contain_label text">Инвестиции в открытие</div>
+                        </div>
+                        <div class="section-box-contain box-border-top">
+                            <div class="section-box-contain_left">
+                                <div class="section-box-contain_val text-white">3%</div>
+                                <div class="section-box-contain_label">Роялти</div>
+                            </div>
+                            <div class="section-box-contain_right">
+                                <div class="section-box-contain_val text-white">181 000 Р</div>
+                                <div class="section-box-contain_label">Прибыль в месяц</div>
+                            </div>
+                            <button class="btn btn-blue modal-on">Хочу свой vape-shop</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="bg-img" style="background-image: url('images/bg-img1.png');"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="section-box">
+                        <h3 class="h3">Павильон в ТЦ</h3>
+                        <p class="text">Помещение с отдельным входом</p>
+                        <div class="section-box-contain">
+                            <div class="section-box-contain_val text-orange">250 000 Р</div>
+                            <div class="section-box-contain_label text">Паушальный взнос</div>
+                        </div>
+                        <div class="section-box-contain">
+                            <div class="section-box-contain_val text-blue">1 610 000 Р</div>
+                            <div class="section-box-contain_label text">Инвестиции в открытие</div>
+                        </div>
+                        <div class="section-box-contain box-border-top">
+                            <div class="section-box-contain_left">
+                                <div class="section-box-contain_val text-white">3%</div>
+                                <div class="section-box-contain_label">Роялти</div>
+                            </div>
+                            <div class="section-box-contain_right">
+                                <div class="section-box-contain_val text-white">290 000 Р</div>
+                                <div class="section-box-contain_label">Прибыль в месяц</div>
+                            </div>
+                            <button class="btn btn-orange modal-on">Хочу свой vape-shop</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="bg-img bg-img-top" style="background-image: url('images/bg-img2.png');"></div>
+                    <div class="bg-img bg-img-bottom" style="background-image: url('images/bg-img3.png');"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section10" class="section section10">
+        <div class="container">
+            <h2 class="h2">Преимущества покупки франшизы</h2>
+            <div class="row section10-row">
+                <div class="col-md-6">
+                    <h3 class="h3">Передадим собственный<br/>
+                        опыт открытия</h3>
+                    <p class="text">
+                        За 6 лет мы выучили множество лайфхаков: знаем,
+                        как выбрать локацию, какую рекламу запустить в
+                        регионах и как обучить персонал грамотным продажам.
+                        И все эти секреты мы передаем вам.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="h3">Не дадим открыть<br/>
+                        магазин в плохом месте</h3>
+                    <p class="text">
+                        Мы составим для вас индивидуальное товарное
+                        наполнение, исходя из географического положения
+                        и предпочтений целевой аудитории вашего региона
+                    </p>
+                </div>
+            </div>
+            <div class="row section10-row">
+                <div class="col-md-6">
+                    <h3 class="h3">Разработаем<br/>
+                        товарную матрицу</h3>
+                    <p class="text">
+                        Мы точно знаем, где нужно открыться, чтобы ваш
+                        вейп-шоп стал лучшим в городе. И мы обязательно
+                        расскажем вам об этом, ведь для нас важен успех
+                        каждого партнера.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="h3">Организуем выгодные<br/>
+                        централизованные поставки</h3>
+                    <p class="text">
+                        Мы закупаем электронные сигареты, комплектующие
+                        и е-жидкости напрямую от ведущих производителей и
+                        сами производим 7 линеек жидкостей, обеспечивая вам,
+                        как нашему партнеру, лучшие цены
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section11" class="section section11">
+        <div class="container">
+            <div class="section11-bg text-center">
+                <div class="row text-left">
+                    <div class="col-md-4">
+                        <div class="icon icon-rocket"></div>
+                        <p class="text">
+                            Бренд-бук, локальная
+                            и федеральная маркетинговые компании
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="icon icon-magazine"></div>
+                        <p class="text">
+                            Дизайн-проект,
+                            полный список мебели и оборудования
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="icon icon-calc"></div>
+                        <p class="text">
+                            Бухгалтерские и юридические услуги за наш счет
+                        </p>
+                    </div>
+                </div>
+                <button class="btn btn-orange modal-on">Хочу свой vape-shop</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="section12" class="section section12">
+        <video id="section12-video" class="index-low" playsinline autoplay muted loop>
+            <source src="video/safesmoking.mp4" type="video/mp4">
+        </video>
+        <div class="container index-high">
+            <h2 class="h2">Открой собственный вейп-шоп
+                и зарабатывай от 150 000 Р в месяц</h2>
+            <p class="text">Открыть бизнес с лидером рынка – выгодно и безопасно</p>
+            <button class="btn btn-orange modal-on">Хочу свой vape-shop</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a class="footer-logo" href="#"><img src="img/altera-logo.svg"/></a>
+                </div>
+                <div class="col-md-6">
+                    <p class="text">
+                        Создание и продвижение франшизы «SafeSmoking»
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <p class="text text-right">
+                        2017<br/>
+                        Все права защищены.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-close"></div>
+                <h3 class="h3">Получить бизнес-план</h3>
+                <div class="modal-content-box">
+                    <input type="text" class="modal-content-box-input"/>
+                    <label class="modal-content-box-label">Ваше имя</label>
+                    <div class="bar"></div>
+                </div>
+                <div class="modal-content-box">
+                    <input type="text" class="modal-content-box-input"/>
+                    <label class="modal-content-box-label">Телефон</label>
+                    <div class="bar"></div>
+                </div>
+                <div class="modal-content-box">
+                    <input type="text" class="modal-content-box-input"/>
+                    <label class="modal-content-box-label">Email</label>
+                    <div class="bar"></div>
+                </div>
+                <button type="submit" class="btn btn-blue">Связаться</button>
+            </div>
+        </div>
+    </div>
+
     <script src="lib/jquery/jquery.min.js"></script>
     <script src="lib/bootstrap/bootstrap.min.js"></script>
     <script src="lib/owl.carousel/owl.carousel.min.js"></script>
+    <script src="lib/paralax/jquery.parallax.js"></script>
+    <script src="lib/scrollupbar/scroll-up-bar.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
