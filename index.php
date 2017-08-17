@@ -5,8 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Landing investors</title>
+    <title>Safesmoking</title>
 
+    
+    <link rel="shortcut icon" href="img/favicon/16_favicon_SSm.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/57_favicon_SSm.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/72_favicon_SSm.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/114_favicon_BBClinic.png">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="lib/owl.carousel/owl.carousel.css" rel="stylesheet">
     <link href="lib/animate/animate.css" rel="stylesheet">
@@ -139,7 +147,7 @@
                         стратегия и известность торговой марки компании позволяет быстро
                         находить аудиторию и нарабатывать базу постоянных клиентов.
                     </p>
-                    <a href="#" class="btn btn-orange modal-on">Посмотреть кейсы</a>
+                    <button class="btn btn-orange modal-on">Посмотреть кейсы</button>
                 </div>
                 <div class="col-md-offset-1 col-md-6">
                     <ul class="section2-list">
@@ -664,26 +672,40 @@
 
     <div class="modal">
         <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-close"></div>
-                <h3 class="h3">Получить бизнес-план</h3>
-                <div class="modal-content-box">
-                    <input type="text" class="modal-content-box-input"/>
-                    <label class="modal-content-box-label">Ваше имя</label>
-                    <div class="bar"></div>
+            <form class="form-modal">
+                <div class="modal-content">
+                    <input type="hidden" name="project_name" value="Заявка с Сайта">
+                    <input type="hidden" name="admin_email" value="admin@alterainvest.ru">
+                    <input type="hidden" name="form_subject" value="Связаться с представителем!">
+
+                    <div class="modal-close"></div>
+                    <div class="modal-content-form">
+                        <h3 class="h3">Получить бизнес-план</h3>
+                        <div class="modal-content-box">
+                            <input type="text" name="firstName" id="firstName" class="modal-content-box-input"/>
+                            <label class="modal-content-box-label">Ваше имя</label>
+                            <div class="bar"></div>
+                        </div>
+                        <div class="modal-content-box">
+                            <input id="phone" name="phone" type="tel" class="modal-content-box-input"/>
+                            <label class="modal-content-box-label">Телефон</label>
+                            <div class="bar"></div>
+                        </div>
+                        <div class="modal-content-box">
+                            <input id="email" name="email" type="text" class="modal-content-box-input"/>
+                            <label class="modal-content-box-label">Email</label>
+                            <div class="bar"></div>
+                        </div>
+                        <button type="submit" id="submit" value="Получить" class="btn btn-blue">Связаться</button>
+                    </div>
+                    <div class="modal-content-success" style="display: none;">
+                        <img src="img/wheip.svg" class="wheip-icon"/>
+                        <h2 class="h2">Спасибо!</h2>
+                        <p class="text">Маркетинговое предложение будет отправлено вам на почту автоматически.<br/><br/>
+                        По бизнес-плану с вами свяжется менеджер в близжайшее время.</p>
+                    </div>
                 </div>
-                <div class="modal-content-box">
-                    <input type="tel" class="modal-content-box-input"/>
-                    <label class="modal-content-box-label">Телефон</label>
-                    <div class="bar"></div>
-                </div>
-                <div class="modal-content-box">
-                    <input type="text" class="modal-content-box-input"/>
-                    <label class="modal-content-box-label">Email</label>
-                    <div class="bar"></div>
-                </div>
-                <button type="submit" class="btn btn-blue">Связаться</button>
-            </div>
+            </form>
         </div>
     </div>
 
@@ -693,6 +715,7 @@
     <script src="lib/paralax/jquery.parallax.js"></script>
     <script src="lib/scrollupbar/scroll-up-bar.min.js"></script>
     <script src="lib/maskedinput/jquery.maskedinput.min.js"></script>
+    <script src="js/common.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
