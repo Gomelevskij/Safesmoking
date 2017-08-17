@@ -1,5 +1,19 @@
 // ОТПРАВКА
 $("form").on("submit",function(e){
+
+    var inputFirstName = $('#firstName').val(),
+        inputPhone = $('#phone').val(),
+        inputEmail = $('#email').val();
+
+    if( inputFirstName == "" && inputPhone == "" && inputEmail == "" ) {
+        alert("Поля формы обратной связи заполнены неверно!");
+        console.log('Ваше имя:' + inputFirstName);
+        console.log('Телефон:' + inputPhone);
+        console.log('Email:' + inputEmail);
+
+        return false;
+    }
+
     e.preventDefault();
     $.ajax({
          type: "POST"

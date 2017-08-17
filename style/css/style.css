@@ -845,7 +845,7 @@ ol li span,
   transition: all 0.3s ease;
 }
 .modal-dialog {
-  margin: 30px 0;
+  margin: 0;
   position: absolute;
   right: 0;
 }
@@ -866,6 +866,8 @@ ol li span,
   box-shadow: none;
   border: none;
   padding: 106px 210px 140px 101px;
+  box-sizing: border-box;
+  height: 100vh;
   position: relative;
 }
 .modal-content .h3 {

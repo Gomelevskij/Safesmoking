@@ -682,17 +682,17 @@
                     <div class="modal-content-form">
                         <h3 class="h3">Получить бизнес-план</h3>
                         <div class="modal-content-box">
-                            <input type="text" name="firstName" id="firstName" class="modal-content-box-input"/>
+                            <input type="name" required name="firstName" id="firstName" class="modal-content-box-input"/>
                             <label class="modal-content-box-label">Ваше имя</label>
                             <div class="bar"></div>
                         </div>
                         <div class="modal-content-box">
-                            <input id="phone" name="phone" type="tel" class="modal-content-box-input"/>
+                            <input id="phone" name="phone" type="tel" required class="modal-content-box-input"/>
                             <label class="modal-content-box-label">Телефон</label>
                             <div class="bar"></div>
                         </div>
                         <div class="modal-content-box">
-                            <input id="email" name="email" type="text" class="modal-content-box-input"/>
+                            <input id="email" name="email" type="email" required class="modal-content-box-input"/>
                             <label class="modal-content-box-label">Email</label>
                             <div class="bar"></div>
                         </div>
