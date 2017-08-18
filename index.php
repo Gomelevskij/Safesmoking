@@ -19,6 +19,7 @@
     <link href="lib/owl.carousel/owl.carousel.css" rel="stylesheet">
     <link href="lib/animate/animate.css" rel="stylesheet">
     <link href="style/css/style.css" rel="stylesheet">
+    <link href="style/css/media.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -161,19 +162,14 @@
     </section>
 
     <section id="section3" class="section section3">
-        <div class="map-block">
-            <span map-attr="0" class="map-icon map0 active">1</span>
-            <span map-attr="1" class="map-icon map1">8</span>
-            <span map-attr="2" class="map-icon map2">7</span>
-        </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-6">
                     <ul class="section3-list">
                         <li class="section3-list_item">
                             <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
                             <div class="nav-space"></div>
-                            <h3 class="h3 text-orange">Магазин г. Нарва</h3>
+                            <h3 class="h3 text-orange">Магазин г.Санкт-Петербург</h3>
                             <p class="text">
                                 Магазин открылся в 2016 году и вышел на окупаемость
                                 за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
@@ -183,7 +179,7 @@
                         <li class="section3-list_item">
                             <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
                             <div class="nav-space"></div>
-                            <h3 class="h3 text-orange">Магазин г. Тест</h3>
+                            <h3 class="h3 text-orange">Магазин Ленинградской обл.</h3>
                             <p class="text">
                                 Магазин открылся в 2016 году и вышел на окупаемость
                                 за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
@@ -193,7 +189,87 @@
                         <li class="section3-list_item">
                             <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
                             <div class="nav-space"></div>
-                            <h3 class="h3 text-orange">Магазин г. Псков</h3>
+                            <h3 class="h3 text-orange">Магазин г.Краснодар</h3>
+                            <p class="text">
+                                Магазин открылся в 2016 году и вышел на окупаемость
+                                за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
+                            </p>
+                            <button class="btn btn-blue modal-on">Хочу свой vape-shop</button>
+                        </li>
+                        <li class="section3-list_item">
+                            <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
+                            <div class="nav-space"></div>
+                            <h3 class="h3 text-orange">Магазин г.Великий Новгород</h3>
+                            <p class="text">
+                                Магазин открылся в 2016 году и вышел на окупаемость
+                                за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
+                            </p>
+                            <button class="btn btn-blue modal-on">Хочу свой vape-shop</button>
+                        </li>
+                        <li class="section3-list_item">
+                            <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
+                            <div class="nav-space"></div>
+                            <h3 class="h3 text-orange">Магазин г.Мурманск</h3>
+                            <p class="text">
+                                Магазин открылся в 2016 году и вышел на окупаемость
+                                за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
+                            </p>
+                            <button class="btn btn-blue modal-on">Хочу свой vape-shop</button>
+                        </li>
+                        <li class="section3-list_item">
+                            <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
+                            <div class="nav-space"></div>
+                            <h3 class="h3 text-orange">Магазин г.Архангельск</h3>
+                            <p class="text">
+                                Магазин открылся в 2016 году и вышел на окупаемость
+                                за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
+                            </p>
+                            <button class="btn btn-blue modal-on">Хочу свой vape-shop</button>
+                        </li>
+                        <li class="section3-list_item">
+                            <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
+                            <div class="nav-space"></div>
+                            <h3 class="h3 text-orange">Магазин г.Северодвинск</h3>
+                            <p class="text">
+                                Магазин открылся в 2016 году и вышел на окупаемость
+                                за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
+                            </p>
+                            <button class="btn btn-blue modal-on">Хочу свой vape-shop</button>
+                        </li>
+                        <li class="section3-list_item">
+                            <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
+                            <div class="nav-space"></div>
+                            <h3 class="h3 text-orange">Магазин г.Череповец</h3>
+                            <p class="text">
+                                Магазин открылся в 2016 году и вышел на окупаемость
+                                за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
+                            </p>
+                            <button class="btn btn-blue modal-on">Хочу свой vape-shop</button>
+                        </li>
+                        <li class="section3-list_item">
+                            <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
+                            <div class="nav-space"></div>
+                            <h3 class="h3 text-orange">Магазин г.Сыктывкар</h3>
+                            <p class="text">
+                                Магазин открылся в 2016 году и вышел на окупаемость
+                                за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
+                            </p>
+                            <button class="btn btn-blue modal-on">Хочу свой vape-shop</button>
+                        </li>
+                        <li class="section3-list_item">
+                            <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
+                            <div class="nav-space"></div>
+                            <h3 class="h3 text-orange">Магазин г.Томск</h3>
+                            <p class="text">
+                                Магазин открылся в 2016 году и вышел на окупаемость
+                                за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
+                            </p>
+                            <button class="btn btn-blue modal-on">Хочу свой vape-shop</button>
+                        </li>
+                        <li class="section3-list_item">
+                            <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
+                            <div class="nav-space"></div>
+                            <h3 class="h3 text-orange">Магазин г.Пятигорск</h3>
                             <p class="text">
                                 Магазин открылся в 2016 году и вышел на окупаемость
                                 за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
@@ -201,6 +277,21 @@
                             <button class="btn btn-blue modal-on">Хочу свой vape-shop</button>
                         </li>
                     </ul>
+                </div>
+                <div class="col-md-6">
+                    <div class="map-block">
+                        <span map-attr="0" class="map-icon map0 active">37</span>
+                        <span map-attr="1" class="map-icon map1">10</span>
+                        <span map-attr="2" class="map-icon map2">4</span>
+                        <span map-attr="3" class="map-icon map3">2</span>
+                        <span map-attr="4" class="map-icon map4">2</span>
+                        <span map-attr="5" class="map-icon map5">1</span>
+                        <span map-attr="6" class="map-icon map6">1</span>
+                        <span map-attr="7" class="map-icon map7">1</span>
+                        <span map-attr="8" class="map-icon map8">1</span>
+                        <span map-attr="9" class="map-icon map9">1</span>
+                        <span map-attr="10" class="map-icon map10">1</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -299,7 +390,7 @@
                 <div class="col-md-12">
                     <div class="grafic-space">
                         <div class="grafic-space_item">
-                            <div grafic-attr="0" class="grafic-line grafic0 active">
+                            <div grafic-attr="0" class="grafic-line grafic0">
                                 <span class="line-1"></span>
                             </div>
                             <div grafic-attr="1" class="grafic-line grafic1">
@@ -310,7 +401,7 @@
                                 <span class="line-1"></span>
                                 <span class="line-2"></span>
                             </div>
-                            <div grafic-attr="3" class="grafic-line grafic3">
+                            <div grafic-attr="3" class="grafic-line grafic3 active">
                                 <span class="line-1"></span>
                                 <span class="line-2"></span>
                             </div>

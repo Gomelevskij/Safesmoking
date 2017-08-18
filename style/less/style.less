@@ -41,7 +41,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-family: 'latobold';
+  font-family: 'latoblack';
   font-size: 48px;
   margin-bottom: 111px;
   color: #fff;
@@ -192,6 +192,31 @@ ol, .ol {
   box-sizing: border-box;
   position: relative;
 
+  &:before {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-image: url('../../images/smoke-scroll.png');
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    background-size: contain;
+    animation: animatedBackground 70s infinite;
+  }
+
+  @keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+  }
+
+  .container {
+    z-index: 10;
+    position: relative;
+  }
+
   &-block {
     margin-top: 117px;
 
@@ -290,17 +315,15 @@ ol, .ol {
     background-position: top right;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 796px;
-    height: 607px;
-    position: absolute;
-    right: 0;
-    top: 0;
+    width: 908px;
+    height: 700px;
+    position: relative;
 
     .map-icon {
       background-color: #6096ae;
-      box-shadow: 0 0 20px 0 #6096ae;
-      height: 32px;
-      width: 32px;
+      box-shadow: 0 2px 10px 0 rgba(96, 150, 174, 0.5);
+      height: 30px;
+      width: 30px;
       line-height: 32px;
       display: block;
       text-align: center;
@@ -314,25 +337,74 @@ ol, .ol {
       -webkit-transition: all 0.3s ease;
       transition: all 0.3s ease;
 
+      &:hover {
+        background-color: #51b1db;
+        box-shadow: 0 2px 20px 0 rgba(96, 150, 174, 0.5);
+      }
+
       &.active {
         background-color: #f8a058;
-        box-shadow: 0 0 20px 0 #f8a058;
+        box-shadow: 0 2px 10px 0 rgba(248, 160, 88, 0.5);
         z-index: 19;
+
+        &:hover {
+          background-color: #ff7606;
+          box-shadow: 0 2px 20px 0 rgba(248, 160, 88, 0.5);
+        }
       }
 
       &.map0 {
-        top: 279px;
-        left: 97px;
+        top: 233px;
+        left: 58px;
       }
 
       &.map1 {
-        top: 279px;
-        left: 194px;
+        top: 263px;
+        left: 89px;
       }
 
       &.map2 {
-        top: 246px;
-        left: 194px;
+        top: 411px;
+        left: 0px;
+      }
+
+      &.map3 {
+        top: 292px;
+        left: 89px;
+      }
+
+      &.map4 {
+        top: 141px;
+        left: 175px;
+      }
+
+      &.map5 {
+        top: 204px;
+        left: 147px;
+      }
+
+      &.map6 {
+        top: 233px;
+        left: 176px;
+      }
+
+      &.map7 {
+        top: 293px;
+        left: 147px;
+      }
+
+      &.map8 {
+        top: 292px;
+        left: 235px;
+      }
+
+      &.map9 {
+        top: 410px;
+        left: 383px;
+      }
+      &.map10 {
+        top: 440px;
+        left: 30px;
       }
     }
   }
@@ -394,7 +466,6 @@ ol, .ol {
     }
 
     &_item {
-      width: 622px;
       box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.43);
       background-color: #202020;
       position: relative;
@@ -436,10 +507,10 @@ ol, .ol {
 }
 
 .section4 {
-  background-image: url('../../images/smoke.png');
+  background-image: url('../../images/smoke-scroll.png');
   background-repeat: repeat-x;
-  background-position: bottom left;
-  background-size: 100%;
+  background-position: top -118px left;
+  background-size: contain;
 
   .text {
     margin-top: 50px;
@@ -822,13 +893,14 @@ ol, .ol {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  padding: 509px 0 506px;
+  padding: 709px 0 600px;
 
   &-text {
     font-size: 36px;
 
     span {
       font-size: 48px;
+      font-family: 'latoblack';
       display: block;
     }
   }
@@ -836,27 +908,31 @@ ol, .ol {
 
 .section8 {
   position: relative;
-  margin-top: -100px;
+  margin-top: -400px;
 
   &:before {
-    //content: "";
+    content: "";
     width: 100%;
     position: absolute;
     z-index: 12;
-    top: 0;
+    bottom: 0;
     height: 100%;
-    background-image: url('../../images/smoke2.png');
+    background-image: url('../../images/longsmoke3.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top -517px center;
+    background-position: bottom -293px center;
   }
 
   h3, .h3 {
     margin-top: 92px;
+    font-family: 'latobold';
   }
 
   .wheip {
     position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 1366px;
 
     &-item1 {
       content: '';
@@ -952,6 +1028,14 @@ ol, .ol {
   &-row {
     margin-bottom: 70px;
   }
+
+  h2, .h2 {
+    font-family: 'latoblack';
+  }
+
+  h3, .h3 {
+    font-family: 'latobold';
+  }
 }
 
 .section11 {
@@ -997,6 +1081,7 @@ ol, .ol {
   .h2 {
     margin-bottom: 19px;
     max-width: 920px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.43);
   }
 }
 
@@ -1058,7 +1143,6 @@ ol, .ol {
         font-family: 'latoregular';
         color: #fff !important;
         font-size: 24px;
-        text-transform: uppercase;
         border-top: none !important;
         border-left: none !important;
         border-right: none !important;

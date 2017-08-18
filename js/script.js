@@ -2,15 +2,15 @@ $(document).ready(function() {
 
   $("input[type='tel']").mask("+7 (999) 999-99-99");
 
-  // $('.wheip-item1').parallax({
-  //   xparallax: false
-  //   yparallax: true
-  // });
-  //
-  // $('.wheip-item2').parallax({
-  //   xparallax: false
-  //   yparallax: true
-  // });
+$('.wheip-item1').parallax({
+    yparallax: true,
+    yorigin: 'top'
+});
+
+$('.wheip-item2').parallax({
+    yparallax: true,
+    yorigin: 'bottom'
+});
 
   // Input as material design
   $('.modal-content-box-input').blur(function(){
@@ -74,6 +74,7 @@ $(document).ready(function() {
   var owlGrafic = $(".grafic-digital");
   owlGrafic.owlCarousel({
     items: 1,
+    startPosition: 3,
     animateIn: 'fadeInY',
     animateOut: 'fadeOutY',
     mouseDrag: false,

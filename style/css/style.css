@@ -35,7 +35,7 @@ h1,
 }
 h2,
 .h2 {
-  font-family: 'latobold';
+  font-family: 'latoblack';
   font-size: 48px;
   margin-bottom: 111px;
   color: #fff;
@@ -171,6 +171,32 @@ ol li span,
   box-sizing: border-box;
   position: relative;
 }
+.header:before {
+  content: '';
+  position: absolute;
+  display: block;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-image: url('../../images/smoke-scroll.png');
+  background-repeat: repeat-x;
+  background-position: 0 0;
+  background-size: contain;
+  animation: animatedBackground 70s infinite;
+}
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+.header .container {
+  z-index: 10;
+  position: relative;
+}
 .header-block {
   margin-top: 117px;
 }
@@ -249,17 +275,15 @@ ol li span,
   background-position: top right;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 796px;
-  height: 607px;
-  position: absolute;
-  right: 0;
-  top: 0;
+  width: 908px;
+  height: 700px;
+  position: relative;
 }
 .section3 .map-block .map-icon {
   background-color: #6096ae;
-  box-shadow: 0 0 20px 0 #6096ae;
-  height: 32px;
-  width: 32px;
+  box-shadow: 0 2px 10px 0 rgba(96, 150, 174, 0.5);
+  height: 30px;
+  width: 30px;
   line-height: 32px;
   display: block;
   text-align: center;
@@ -273,22 +297,62 @@ ol li span,
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+.section3 .map-block .map-icon:hover {
+  background-color: #51b1db;
+  box-shadow: 0 2px 20px 0 rgba(96, 150, 174, 0.5);
+}
 .section3 .map-block .map-icon.active {
   background-color: #f8a058;
-  box-shadow: 0 0 20px 0 #f8a058;
+  box-shadow: 0 2px 10px 0 rgba(248, 160, 88, 0.5);
   z-index: 19;
 }
+.section3 .map-block .map-icon.active:hover {
+  background-color: #ff7606;
+  box-shadow: 0 2px 20px 0 rgba(248, 160, 88, 0.5);
+}
 .section3 .map-block .map-icon.map0 {
-  top: 279px;
-  left: 97px;
+  top: 233px;
+  left: 58px;
 }
 .section3 .map-block .map-icon.map1 {
-  top: 279px;
-  left: 194px;
+  top: 263px;
+  left: 89px;
 }
 .section3 .map-block .map-icon.map2 {
-  top: 246px;
-  left: 194px;
+  top: 411px;
+  left: 0px;
+}
+.section3 .map-block .map-icon.map3 {
+  top: 292px;
+  left: 89px;
+}
+.section3 .map-block .map-icon.map4 {
+  top: 141px;
+  left: 175px;
+}
+.section3 .map-block .map-icon.map5 {
+  top: 204px;
+  left: 147px;
+}
+.section3 .map-block .map-icon.map6 {
+  top: 233px;
+  left: 176px;
+}
+.section3 .map-block .map-icon.map7 {
+  top: 293px;
+  left: 147px;
+}
+.section3 .map-block .map-icon.map8 {
+  top: 292px;
+  left: 235px;
+}
+.section3 .map-block .map-icon.map9 {
+  top: 410px;
+  left: 383px;
+}
+.section3 .map-block .map-icon.map10 {
+  top: 440px;
+  left: 30px;
 }
 .section3-list {
   margin: 0;
@@ -343,7 +407,6 @@ ol li span,
   content: url('../../img/right.svg');
 }
 .section3-list_item {
-  width: 622px;
   box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.43);
   background-color: #202020;
   position: relative;
@@ -377,10 +440,10 @@ ol li span,
   margin-bottom: 10px;
 }
 .section4 {
-  background-image: url('../../images/smoke.png');
+  background-image: url('../../images/smoke-scroll.png');
   background-repeat: repeat-x;
-  background-position: bottom left;
-  background-size: 100%;
+  background-position: top -118px left;
+  background-size: contain;
 }
 .section4 .text {
   margin-top: 50px;
@@ -690,36 +753,42 @@ ol li span,
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  padding: 509px 0 506px;
+  padding: 709px 0 600px;
 }
 .section7-text {
   font-size: 36px;
 }
 .section7-text span {
   font-size: 48px;
+  font-family: 'latoblack';
   display: block;
 }
 .section8 {
   position: relative;
-  margin-top: -100px;
+  margin-top: -400px;
 }
 .section8:before {
+  content: "";
   width: 100%;
   position: absolute;
   z-index: 12;
-  top: 0;
+  bottom: 0;
   height: 100%;
-  background-image: url('../../images/smoke2.png');
+  background-image: url('../../images/longsmoke3.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top -517px center;
+  background-position: bottom -293px center;
 }
 .section8 h3,
 .section8 .h3 {
   margin-top: 92px;
+  font-family: 'latobold';
 }
 .section8 .wheip {
   position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 1366px;
 }
 .section8 .wheip-item1 {
   content: '';
@@ -798,6 +867,14 @@ ol li span,
 .section10-row {
   margin-bottom: 70px;
 }
+.section10 h2,
+.section10 .h2 {
+  font-family: 'latoblack';
+}
+.section10 h3,
+.section10 .h3 {
+  font-family: 'latobold';
+}
 .section11-bg {
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.43);
   background-color: #fff;
@@ -832,6 +909,7 @@ ol li span,
 .section12 .h2 {
   margin-bottom: 19px;
   max-width: 920px;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.43);
 }
 .footer {
   padding: 40px 0 50px 0;
@@ -886,7 +964,6 @@ ol li span,
   font-family: 'latoregular';
   color: #fff !important;
   font-size: 24px;
-  text-transform: uppercase;
   border-top: none !important;
   border-left: none !important;
   border-right: none !important;
