@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ad948465-d667-4478-b62b-3e8112e290cc" name="Safesmoking" url="http://altera.gomelevskij.ru/safesmoking/">
+        <fileTransfer host="92.53.96.46" port="21" rootFolder="/altera/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

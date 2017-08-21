@@ -32,22 +32,22 @@
         <div class="container">
             <div class="row">
                 <h1 class="h1">Открой собственный вейп-шоп
-                    и зарабатывай от 150 000 Р в месяц</h1>
-                <p class="text">
+                    и зарабатывай<br/> от 150 000 Р в месяц</h1>
+                <p class="text text-shadow">
                     Открыть бизнес с лидером рынка – выгодно и безопасно
                 </p>
                 <button class="btn btn-orange modal-on">Хочу свой vape-shop</button>
             </div>
              <div class="row header-block">
-                 <div class="col-md-4">
+                 <div class="col-xs-12 col-sm-4 col-md-4">
                      <div class="header-block_val">1 050 000 р</div>
                      <div class="header-block_label">Цена франшизы</div>
                  </div>
-                 <div class="col-md-5">
+                 <div class="col-xs-12 col-sm-4 col-md-5">
                      <div class="header-block_val">до 180 000 р</div>
                      <div class="header-block_label">Доход в месяц</div>
                  </div>
-                 <div class="col-md-3">
+                 <div class="col-xs-12 col-sm-4 col-md-3">
                      <div class="header-block_val">61</div>
                      <div class="header-block_label">Магазин уже открыт
                          по франшизе</div>
@@ -66,12 +66,12 @@
     <section class="navigation">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-sm-6 col-md-3">
                     <a href="#" class="logo">
                         <img src="img/logo.svg"/>
                     </a>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-6 col-md-4 hidden-xs hidden-sm">
                     <p class="text-small">
                         франшиза сети магазинов электронных сигарет
                         легким легко
@@ -139,9 +139,9 @@
 
     <section id="section2" class="section section2">
         <div class="container">
+            <h2 class="h2">Минимальный порог входа в бизнес</h2>
             <div class="row">
-                <h2 class="h2">Минимальный порог входа в бизнес</h2>
-                <div class="col-md-5">
+                <div class="col-xs-12 col-sm-6 col-md-5">
                     <p class="text">
                         Бизнес-модель вэйпшопа "Safe Smoking" позволяет в короткий срок
                         выйти на окупаемость даже в маленьких городах. Маркетинговая
@@ -150,7 +150,7 @@
                     </p>
                     <button class="btn btn-orange modal-on">Посмотреть кейсы</button>
                 </div>
-                <div class="col-md-offset-1 col-md-6">
+                <div class="col-xs-12 col-sm-6 col-md-offset-1 col-md-6">
                     <ul class="section2-list">
                         <li class="text person">Доступно для городов с населением от 9000 человек</li>
                         <li class="text support">Маркетинговая поддержка и налаженные бизнес-процессы</li>
@@ -164,12 +164,12 @@
     <section id="section3" class="section section3">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-xs-12 col-md-6 padding-fix">
                     <ul class="section3-list">
                         <li class="section3-list_item">
                             <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
                             <div class="nav-space"></div>
-                            <h3 class="h3 text-orange">Магазин г.Санкт-Петербург</h3>
+                            <h3 class="h3 text-orange">г.Санкт-Петербург</h3>
                             <p class="text">
                                 Магазин открылся в 2016 году и вышел на окупаемость
                                 за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
@@ -179,7 +179,7 @@
                         <li class="section3-list_item">
                             <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
                             <div class="nav-space"></div>
-                            <h3 class="h3 text-orange">Магазин Ленинградской обл.</h3>
+                            <h3 class="h3 text-orange">Ленинградской обл.</h3>
                             <p class="text">
                                 Магазин открылся в 2016 году и вышел на окупаемость
                                 за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
@@ -189,7 +189,7 @@
                         <li class="section3-list_item">
                             <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
                             <div class="nav-space"></div>
-                            <h3 class="h3 text-orange">Магазин г.Краснодар</h3>
+                            <h3 class="h3 text-orange">г.Краснодар</h3>
                             <p class="text">
                                 Магазин открылся в 2016 году и вышел на окупаемость
                                 за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
@@ -199,7 +199,7 @@
                         <li class="section3-list_item">
                             <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
                             <div class="nav-space"></div>
-                            <h3 class="h3 text-orange">Магазин г.Великий Новгород</h3>
+                            <h3 class="h3 text-orange">г.Великий Новгород</h3>
                             <p class="text">
                                 Магазин открылся в 2016 году и вышел на окупаемость
                                 за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
@@ -209,7 +209,7 @@
                         <li class="section3-list_item">
                             <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
                             <div class="nav-space"></div>
-                            <h3 class="h3 text-orange">Магазин г.Мурманск</h3>
+                            <h3 class="h3 text-orange">г.Мурманск</h3>
                             <p class="text">
                                 Магазин открылся в 2016 году и вышел на окупаемость
                                 за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
@@ -219,7 +219,7 @@
                         <li class="section3-list_item">
                             <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
                             <div class="nav-space"></div>
-                            <h3 class="h3 text-orange">Магазин г.Архангельск</h3>
+                            <h3 class="h3 text-orange">г.Архангельск</h3>
                             <p class="text">
                                 Магазин открылся в 2016 году и вышел на окупаемость
                                 за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
@@ -229,7 +229,7 @@
                         <li class="section3-list_item">
                             <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
                             <div class="nav-space"></div>
-                            <h3 class="h3 text-orange">Магазин г.Северодвинск</h3>
+                            <h3 class="h3 text-orange">г.Северодвинск</h3>
                             <p class="text">
                                 Магазин открылся в 2016 году и вышел на окупаемость
                                 за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
@@ -239,7 +239,7 @@
                         <li class="section3-list_item">
                             <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
                             <div class="nav-space"></div>
-                            <h3 class="h3 text-orange">Магазин г.Череповец</h3>
+                            <h3 class="h3 text-orange">г.Череповец</h3>
                             <p class="text">
                                 Магазин открылся в 2016 году и вышел на окупаемость
                                 за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
@@ -249,7 +249,7 @@
                         <li class="section3-list_item">
                             <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
                             <div class="nav-space"></div>
-                            <h3 class="h3 text-orange">Магазин г.Сыктывкар</h3>
+                            <h3 class="h3 text-orange">г.Сыктывкар</h3>
                             <p class="text">
                                 Магазин открылся в 2016 году и вышел на окупаемость
                                 за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
@@ -259,7 +259,7 @@
                         <li class="section3-list_item">
                             <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
                             <div class="nav-space"></div>
-                            <h3 class="h3 text-orange">Магазин г.Томск</h3>
+                            <h3 class="h3 text-orange">г.Томск</h3>
                             <p class="text">
                                 Магазин открылся в 2016 году и вышел на окупаемость
                                 за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
@@ -269,7 +269,7 @@
                         <li class="section3-list_item">
                             <div class="section3-list_item-img" style="background-image: url('images/section5.jpg');"></div>
                             <div class="nav-space"></div>
-                            <h3 class="h3 text-orange">Магазин г.Пятигорск</h3>
+                            <h3 class="h3 text-orange">г.Пятигорск</h3>
                             <p class="text">
                                 Магазин открылся в 2016 году и вышел на окупаемость
                                 за 6 месяцев. Средняя прибыль 150 000 рублей в месяц
@@ -278,7 +278,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-6">
+                <div class="hidden-xs col-md-6">
                     <div class="map-block">
                         <span map-attr="0" class="map-icon map0 active">37</span>
                         <span map-attr="1" class="map-icon map1">10</span>
@@ -301,7 +301,7 @@
         <div class="container">
             <h2 class="h2">Из чего складывается доход?</h2>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-sm-4 col-md-4">
                     <div class="round-box">
                         <div class="round">
                             45%
@@ -310,7 +310,7 @@
                         <div class="round-box_label">Вейпы</div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-4 col-md-4">
                     <div class="round-box">
                         <div class="round round-orange">
                             30%
@@ -319,7 +319,7 @@
                         <div class="round-box_label">Комплектующие</div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-4 col-md-4">
                     <div class="round-box">
                         <div class="round round-blue">
                             30%
@@ -330,7 +330,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-5">
+                <div class="col-xs-12 col-sm-7 col-md-5">
                     <h2 class="h2 mb-0">Как посчитать оборот моего магазина?</h2>
                     <p class="text">
                         Основной заработок на жидкостях.
@@ -341,7 +341,7 @@
                         Почему лучше купить франшизу, а не открыть свой бизнес? Более лояльные цены на закупку!
                     </p>
                 </div>
-                <div class="col-md-offset-1 col-md-6">
+                <div class="col-xs-12 col-sm-5 col-md-offset-1 col-md-6 padding-fix">
                     <div class="section4-contain">
                         <div class="section4-contain-box">
                             <div class="section4-contain-box_label">600 Р</div>
@@ -363,7 +363,7 @@
     </section>
 
     <section id="section5" class="section section5">
-        <div class="container">
+        <div class="container padding-fix">
             <div class="section5-block">
                 <h3 class="h3">Собственное
                     производство</h3>
@@ -531,13 +531,13 @@
     <section id="section8" class="section section8">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-6 col-md-6">
                     <div class="wheip">
                         <div class="wheip-item1"></div>
                         <div class="wheip-item2"></div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6 col-md-6">
                     <h3 class="h3">Как электронные сигареты вляют на здоровье?</h3>
                     <p class="text index-low">Полная безвредность невозможна, однако:</p>
                     <ol class="ol index-low">
@@ -587,7 +587,10 @@
     <section id="section9" class="section section9">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-xs-12 col-sm-6 col-sm-push-6 col-md-push-6 col-md-6 padding-fix">
+                    <div class="bg-img" style="background-image: url('images/bg-img1.png');"></div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-sm-pull-6 col-md-pull-6 col-md-6 padding-fix">
                     <div class="section-box">
                         <h3 class="h3">Островок в ТЦ</h3>
                         <div class="section-box-contain">
@@ -611,12 +614,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="bg-img" style="background-image: url('images/bg-img1.png');"></div>
-                </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-xs-12 col-sm-6 col-sm-push-6 col-md-push-6 col-md-6 padding-fix">
                     <div class="section-box">
                         <h3 class="h3">Павильон в ТЦ</h3>
                         <p class="text">Помещение с отдельным входом</p>
@@ -641,7 +641,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-xs-12 col-sm-6 col-sm-pull-6 col-md-pull-6 col-md-6 padding-fix">
                     <div class="bg-img bg-img-top" style="background-image: url('images/bg-img2.png');"></div>
                     <div class="bg-img bg-img-bottom" style="background-image: url('images/bg-img3.png');"></div>
                 </div>
@@ -653,7 +653,7 @@
         <div class="container">
             <h2 class="h2">Преимущества покупки франшизы</h2>
             <div class="row section10-row">
-                <div class="col-md-6">
+                <div class="col-xs-12 col-sm-6 col-md-6">
                     <h3 class="h3">Передадим собственный<br/>
                         опыт открытия</h3>
                     <p class="text">
@@ -663,7 +663,7 @@
                         И все эти секреты мы передаем вам.
                     </p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-xs-12 col-sm-6 col-md-6">
                     <h3 class="h3">Не дадим открыть<br/>
                         магазин в плохом месте</h3>
                     <p class="text">
@@ -674,7 +674,7 @@
                 </div>
             </div>
             <div class="row section10-row">
-                <div class="col-md-6">
+                <div class="col-xs-12 col-sm-6 col-md-6">
                     <h3 class="h3">Разработаем<br/>
                         товарную матрицу</h3>
                     <p class="text">
@@ -684,7 +684,7 @@
                         каждого партнера.
                     </p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-xs-12 col-sm-6 col-md-6">
                     <h3 class="h3">Организуем выгодные<br/>
                         централизованные поставки</h3>
                     <p class="text">
@@ -699,24 +699,24 @@
     </section>
 
     <section id="section11" class="section section11">
-        <div class="container">
+        <div class="container padding-fix text-center">
             <div class="section11-bg text-center">
                 <div class="row text-left">
-                    <div class="col-md-4">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
                         <div class="icon icon-rocket"></div>
                         <p class="text">
                             Бренд-бук, локальная
                             и федеральная маркетинговые компании
                         </p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
                         <div class="icon icon-magazine"></div>
                         <p class="text">
                             Дизайн-проект,
                             полный список мебели и оборудования
                         </p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
                         <div class="icon icon-calc"></div>
                         <p class="text">
                             Бухгалтерские и юридические услуги за наш счет
@@ -743,17 +743,17 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-xs-12 col-sm-5 col-md-3">
                     <a class="footer-logo" href="#"><img src="img/altera-logo.svg"/></a>
                 </div>
-                <div class="col-md-6">
+                <div class="col-xs-12 col-sm-4 col-md-6">
                     <p class="text">
                         Создание и продвижение франшизы «SafeSmoking»
                     </p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-xs-12 col-sm-3 col-md-3">
                     <p class="text text-right">
-                        2017<br/>
+                        2017
                         Все права защищены.
                     </p>
                 </div>

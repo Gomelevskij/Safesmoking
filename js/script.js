@@ -101,7 +101,6 @@ $('.wheip-item2').parallax({
       var valEl = parseFloat(el.innerHTML);
       valEl = valEl*408/100;
       el.innerHTML = '<svg width="305" height="305" viewBox="0 0 150 160"><circle transform="rotate(-90)" r="65" cx="-80" cy="80" /><circle transform="rotate(-90)" style="stroke-dasharray:'+valEl+'px 408px;" r="65" cx="-80" cy="80" /></svg>';
-
     });
   };
   Circle('.round');
