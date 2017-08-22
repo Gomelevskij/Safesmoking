@@ -1,4 +1,89 @@
 /* Small screen */
+@media screen and (min-device-width: 1024px) and (max-device-width: 1620px) {
+  h1,
+  .h1 {
+    font-size: 30px;
+  }
+  h2,
+  .h2 {
+    font-size: 30px;
+    margin-bottom: 44px;
+  }
+  h3,
+  .h3 {
+    font-size: 22px;
+  }
+  p,
+  .text {
+    font-size: 14px;
+  }
+  ol li,
+  .ol li {
+    font-size: 18px;
+  }
+  .header-block_val {
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+  .header-block_label {
+    font-size: 20px;
+  }
+  .section2-list li {
+    padding-bottom: 50px;
+  }
+  .section3-list_item-img {
+    height: 258px;
+  }
+  .section3-list .owl-nav {
+    top: 318px;
+  }
+  .section4-contain {
+    padding: 44px;
+  }
+  .section4-contain-box {
+    padding-bottom: 30px;
+  }
+  .section4-contain-box_label {
+    font-size: 40px;
+  }
+  .section4-contain-box_val {
+    font-size: 20px;
+  }
+  .section6 .blockquote {
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .section6 .grafic-space .grafic-digital_item-box h3 {
+    font-size: 40px;
+  }
+  .section6 .grafic-space .grafic-digital_item-box {
+    margin-top: 34px;
+  }
+  .section7 {
+    padding: 163px 0 600px;
+  }
+  .section8 .wheip {
+    height: 950px;
+  }
+  .section8 .wheip-item1 {
+    width: 374px;
+    height: 565px;
+  }
+  .section8 .wheip-item2 {
+    width: 259px;
+    height: 500px;
+    top: 500px;
+  }
+  .section9 .section-box-contain_val {
+    font-size: 40px;
+  }
+  .section9 .section-box {
+    padding: 40px 60px 40px 60px;
+  }
+  .section12 {
+    padding: 261px 0 196px 0;
+  }
+}
 /* Ipad device */
 @media screen and (min-device-width: 750px) and (max-device-width: 1024px) {
   .header:before,
