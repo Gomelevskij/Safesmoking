@@ -617,7 +617,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-sm-push-6 col-md-push-6 col-md-6 padding-fix">
-                    <div class="section-box">
+                    <div class="section-box section-box-top">
                         <h3 class="h3">Павильон в ТЦ</h3>
                         <p class="text">Помещение с отдельным входом</p>
                         <div class="section-box-contain">
@@ -734,7 +734,7 @@
         </video>
         <div class="container index-high">
             <h2 class="h2">Открой собственный вейп-шоп
-                и зарабатывай от 150 000 Р в месяц</h2>
+                и зарабатывай от 150 000 Р<br/> в месяц</h2>
             <p class="text">Открыть бизнес с лидером рынка – выгодно и безопасно</p>
             <button class="btn btn-orange modal-on">Хочу свой vape-shop</button>
         </div>

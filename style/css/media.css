@@ -2,7 +2,7 @@
 @media screen and (min-device-width: 1024px) and (max-device-width: 1620px) {
   h1,
   .h1 {
-    font-size: 30px;
+    font-size: 42px;
   }
   h2,
   .h2 {
@@ -80,8 +80,14 @@
   .section9 .section-box {
     padding: 40px 60px 40px 60px;
   }
+  .section9 .section-box.section-box-top {
+    margin-top: 460px;
+  }
   .section12 {
     padding: 261px 0 196px 0;
+  }
+  .navigation.fixed-bar {
+    padding: 16px 0 12px;
   }
 }
 /* Ipad device */
