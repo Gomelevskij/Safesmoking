@@ -400,7 +400,7 @@
                         Объем мирового рынка вейпинга достиг $10 млрд.
                         Прогнозы обещают дальнейший рост — $32 млрд к
                         2021 году, $45 млрд и даже $50 млрд — к 2025-му.
-                        <a class="link-rbc" href="goo.gl/vyvpKJ">goo.gl/vyvpKJ</a>
+                        <a target="_blank" class="link-rbc" href="//goo.gl/vyvpKJ">goo.gl/vyvpKJ</a>
                     </blockquote>
                 </div>
             </div>
