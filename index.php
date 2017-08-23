@@ -324,7 +324,7 @@
                         <div class="round">
                             45%
                         </div>
-                        <div class="round-box_val">45%</div>
+                        <div class="round-box_val">30%</div>
                         <div class="round-box_label">Вейпы</div>
                     </div>
                 </div>
@@ -342,7 +342,7 @@
                         <div class="round round-blue">
                             30%
                         </div>
-                        <div class="round-box_val">30%</div>
+                        <div class="round-box_val">40%</div>
                         <div class="round-box_label">Жидкости для парения</div>
                     </div>
                 </div>
@@ -409,7 +409,7 @@
                     <div class="grafic-space">
                         <div class="grafic-space_item">
                             <div grafic-attr="0" class="grafic-line grafic0">
-                                <span class="line-1"></span>
+                                <span class="line-2"></span>
                             </div>
                             <div grafic-attr="1" class="grafic-line grafic1">
                                 <span class="line-1"></span>
@@ -437,12 +437,8 @@
                             <li class="grafic-digital_item">
                                 <div class="grafic-digital_item-date">2014</div>
                                 <div class="grafic-digital_item-box">
-                                    <h3 class="text-blue">$134 млн</h3>
-                                    <p class="text">прогнозируемый объем рынка России</p>
-                                </div>
-                                <div class="grafic-digital_item-box box-border-top">
-                                    <h3 class="text-white">в 2,2 раза</h3>
-                                    <p class="text">реальность привысила прогнозы!</p>
+                                    <h3 class="text-orange">$110 млн</h3>
+                                    <p class="text">фактический объем рынка</p>
                                 </div>
                                 <button class="btn btn-orange modal-on">Хочу свой vape-shop</button>
                             </li>
@@ -456,42 +452,38 @@
                                     <h3 class="text-orange">$300 млн</h3>
                                     <p class="text">фактический объем рынка</p>
                                 </div>
-                                <div class="grafic-digital_item-box box-border-top">
-                                    <h3 class="text-white">в 2,2 раза</h3>
-                                    <p class="text">реальность привысила прогнозы!</p>
-                                </div>
                                 <button class="btn btn-orange modal-on">Хочу свой vape-shop</button>
                             </li>
                             <li class="grafic-digital_item">
                                 <div class="grafic-digital_item-date">2016</div>
                                 <div class="grafic-digital_item-box">
-                                    <h3 class="text-blue">$134 млн</h3>
+                                    <h3 class="text-blue">$163 млн</h3>
                                     <p class="text">прогнозируемый объем рынка России</p>
                                 </div>
                                 <div class="grafic-digital_item-box">
-                                    <h3 class="text-orange">$300 млн</h3>
+                                    <h3 class="text-orange">$317 млн</h3>
                                     <p class="text">фактический объем рынка</p>
                                 </div>
-                                <div class="grafic-digital_item-box box-border-top">
-                                    <h3 class="text-white">в 2,2 раза</h3>
-                                    <p class="text">реальность привысила прогнозы!</p>
-                                </div>
+<!--                                <div class="grafic-digital_item-box box-border-top">-->
+<!--                                    <h3 class="text-white">в 2,2 раза</h3>-->
+<!--                                    <p class="text">реальность привысила прогнозы!</p>-->
+<!--                                </div>-->
                                 <button class="btn btn-orange modal-on">Хочу свой vape-shop</button>
                             </li>
                             <li class="grafic-digital_item">
                                 <div class="grafic-digital_item-date">2017</div>
                                 <div class="grafic-digital_item-box">
-                                    <h3 class="text-blue">$134 млн</h3>
+                                    <h3 class="text-blue">$195 млн</h3>
                                     <p class="text">прогнозируемый объем рынка России</p>
                                 </div>
                                 <div class="grafic-digital_item-box">
-                                    <h3 class="text-orange">$300 млн</h3>
+                                    <h3 class="text-orange">$340 млн</h3>
                                     <p class="text">фактический объем рынка</p>
                                 </div>
-                                <div class="grafic-digital_item-box box-border-top">
-                                    <h3 class="text-white">в 2,2 раза</h3>
-                                    <p class="text">реальность привысила прогнозы!</p>
-                                </div>
+<!--                                <div class="grafic-digital_item-box box-border-top">-->
+<!--                                    <h3 class="text-white">в 2,2 раза</h3>-->
+<!--                                    <p class="text">реальность привысила прогнозы!</p>-->
+<!--                                </div>-->
                                 <button class="btn btn-orange modal-on">Хочу свой vape-shop</button>
                             </li>
                             <li class="grafic-digital_item">
