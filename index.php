@@ -93,45 +93,63 @@
                 </a>
             </li>
             <li>
-                <a href="#section4" data-number="2">
+                <a href="#section3" data-number="2">
                     <span class="dot"></span>
-                    <span class="label">Из чего складывается доход?</span>
+                    <span class="label">Открытые магазины</span>
                 </a>
             </li>
             <li>
-                <a href="#section5" data-number="3">
+                <a href="#section4" data-number="3">
+                    <span class="dot"></span>
+                    <span class="label">Доход магазина</span>
+                </a>
+            </li>
+            <li>
+                <a href="#section5" data-number="4">
+                    <span class="dot"></span>
+                    <span class="label">Калькулятор</span>
+                </a>
+            </li>
+            <li>
+                <a href="#section6" data-number="5">
                     <span class="dot"></span>
                     <span class="label">Собственное производство</span>
                 </a>
             </li>
             <li>
-                <a href="#section6" data-number="4">
+                <a href="#section7" data-number="6">
                     <span class="dot"></span>
-                    <span class="label">График</span>
+                    <span class="label">Прогноз развития рынка</span>
                 </a>
             </li>
             <li>
-                <a href="#section7" data-number="5">
+                <a href="#section8" data-number="7">
                     <span class="dot"></span>
                     <span class="label">Наши гарантии</span>
                 </a>
             </li>
             <li>
-                <a href="#section9" data-number="6">
+                <a href="#section9" data-number="8">
                     <span class="dot"></span>
-                    <span class="label">Наши проекты</span>
+                    <span class="label">Частые вопросы</span>
                 </a>
             </li>
             <li>
-                <a href="#section10" data-number="7">
+                <a href="#section10" data-number="9">
                     <span class="dot"></span>
-                    <span class="label">Преимущества</span>
+                    <span class="label">Пакеты франшизы</span>
                 </a>
             </li>
             <li>
-                <a href="#section12" data-number="8">
+                <a href="#section11" data-number="10">
                     <span class="dot"></span>
-                    <span class="label">Открой свой вейпшоп</span>
+                    <span class="label">Преимущества франшизы</span>
+                </a>
+            </li>
+            <li>
+                <a href="#section12" data-number="11">
+                    <span class="dot"></span>
+                    <span class="label">Хочу свой вейпшоп</span>
                 </a>
             </li>
         </ul>
@@ -297,9 +315,9 @@
         </div>
     </section>
 
-    <section id="section4" class="section section4">
+    <section class="section section4">
         <div class="container">
-            <h2 class="h2">Из чего складывается доход?</h2>
+            <h2 id="section4" class="h2">Из чего складывается доход?</h2>
             <div class="row">
                 <div class="col-sm-4 col-md-4">
                     <div class="round-box">
@@ -331,7 +349,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-7 col-md-5">
-                    <h2 class="h2 mb-0">Как посчитать оборот моего магазина?</h2>
+                    <h2 id="section5" class="h2 mb-0">Как посчитать оборот моего магазина?</h2>
                     <p class="text">
                         Основной заработок на жидкостях.
                         Для примера:
@@ -362,9 +380,9 @@
         </div>
     </section>
 
-    <section id="section5" class="section section5">
+    <section class="section section5">
         <div class="container padding-fix">
-            <div class="section5-block">
+            <div id="section6" class="section5-block">
                 <h3 class="h3">Собственное
                     производство</h3>
                 <p class="text-small">Линейки жидкостей призеры
@@ -374,7 +392,7 @@
         </div>
     </section>
 
-    <section id="section6" class="section section6">
+    <section id="section7" class="section section6">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -519,16 +537,16 @@
         </div>
     </section>
 
-    <section id="section7" class="section section7">
+    <section class="section section7">
         <div class="container">
-            <p class="text section7-text">
+            <p id="section8" class="text section7-text">
                 <span>Мы гарантируем,</span>
                 что выкупим товарный остаток по цене закупки, если магазин будет работать ниже рентабильности
             </p>
         </div>
     </section>
 
-    <section id="section8" class="section section8">
+    <section id="section9" class="section section8">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-md-6">
@@ -584,7 +602,7 @@
         </div>
     </section>
 
-    <section id="section9" class="section section9">
+    <section id="section10" class="section section9">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-sm-push-6 col-md-push-6 col-md-6 padding-fix">
@@ -649,7 +667,7 @@
         </div>
     </section>
 
-    <section id="section10" class="section section10">
+    <section id="section11" class="section section10">
         <div class="container">
             <h2 class="h2">Преимущества покупки франшизы</h2>
             <div class="row section10-row">
@@ -698,7 +716,7 @@
         </div>
     </section>
 
-    <section id="section11" class="section section11">
+    <section class="section section11">
         <div class="container padding-fix text-center">
             <div class="section11-bg text-center">
                 <div class="row text-left">
